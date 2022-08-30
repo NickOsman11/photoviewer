@@ -1,0 +1,21 @@
+*{
+    outline: 2px solid red;
+}
+
+.image-box {
+    display:flex;
+
+    justify-content: left;
+    height: 10vh;
+    width:10vh;
+    object-fit: cover;
+    text-align: left;
+    font-size: small;
+}
+
+.photo-viewer {
+
+    display:flex;
+    justify-content: left;
+    flex-wrap: wrap;
+}
