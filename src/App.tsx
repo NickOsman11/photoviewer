@@ -8,16 +8,16 @@ import { imageUrls } from './assets/imageURLs'
 
 function App() {
 
+  const [selectedImage, setSelectedImage] = useState(imageUrls[0]);
 
   return (
-    <div className="App">
+    <main>
       <h1>React Photo Viewer</h1>
-      <main>
-        <ImageSelector/>
-        <PhotoViewer/>
-      </main>
+      <ImageSelector selectedImage={selectedImage} />
+      <PhotoViewer setSelectedImage={setSelectedImage}/>
+      
 
-    </div>
+    </main>
   )
 }
 

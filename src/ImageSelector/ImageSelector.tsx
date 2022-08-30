@@ -1,11 +1,13 @@
 import React from "react";  
 import "./ImageSelector.css"
+import { imageUrls } from '../assets/imageURLs'
 
 
-export function ImageSelector() {  
+export function ImageSelector({selectedImage}: {selectedImage: string}) {  
+
     return (                
         <div>
-            hi
+            <img src={selectedImage}></img>
         </div>
     );
 }
