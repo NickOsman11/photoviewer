@@ -21,7 +21,7 @@ h1 {
   text-align: left;
 }
 
-main {
+.App {
   display: flex;
   flex-wrap: wrap;
   max-width: 600px;
