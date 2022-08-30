@@ -1,5 +1,5 @@
 import React from "react";  
-import "./ImageSelector.css"
+import "./SelectedImage.css"
 
 
 export function SelectedImage({selectedImage} : {selectedImage: string}) {  

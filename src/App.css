@@ -25,6 +25,7 @@ h1 {
   display: flex;
   flex-wrap: wrap;
   max-width: 600px;
+  justify-content: center;
 }
 
 @keyframes logo-spin {

@@ -1,0 +1,31 @@
+.image-box {
+    display:flex;
+
+    justify-content: left;
+    height: 96px;
+    width: 96px;
+    object-fit: cover;
+    text-align: left;
+    font-size: small;
+    padding: 2px;
+}
+
+.image-menu {
+
+    display:flex;
+    flex-wrap: wrap;
+    width: 500px;
+}
+
+.isSelected{
+    border: 5px !important ;
+    border-color: orangered !important;
+    display:flex;
+    justify-content: left;
+    height: 96px;
+    width: 96px;
+    object-fit: cover;
+    text-align: left;
+    font-size: small;
+    padding: 2px;
+}

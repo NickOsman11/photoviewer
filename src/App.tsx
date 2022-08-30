@@ -16,7 +16,7 @@ function App() {
       <h1>React Photo Viewer</h1>
       <main>
         <SelectedImage selectedImage = {selectedImage}/>
-        <ImageMenu setSelectedImage =  {setSelectedImage}/>
+        <ImageMenu setSelectedImage =  {setSelectedImage} selectedImage = {selectedImage}/>
       </main>
     </div>
   )
